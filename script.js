@@ -8,7 +8,7 @@ const totalPriceShow = document.querySelector('#totalPrice');
 let productPrice = 6500;
 let totalPrice = 0;
 price.innerHTML = `$ ${productPrice}`;
-totalPriceShow.innerHTML = `Total: $ 000`;
+totalPriceShow.innerHTML = `Total: $ 0`;
 
 addToCartBtn.addEventListener('click', () => {
   totalPrice += productPrice;
@@ -30,7 +30,7 @@ const totalPriceShow2 = document.querySelector('#totalPrice2');
 let productPrice2 = 6500;
 let totalPrice2 = 0;
 price2.innerHTML = `$ ${productPrice2}`;
-totalPriceShow2.innerHTML = `Total: $ 000`;
+totalPriceShow2.innerHTML = `Total: $ 0`;
 
 addToCartBtn2.addEventListener('click', () => {
   totalPrice2 += productPrice2;
@@ -55,7 +55,7 @@ const totalPriceShow3 = document.querySelector('#totalPrice3');
 let productPrice3 = 6500;
 let totalPrice3 = 0;
 price3.innerHTML = `$ ${productPrice3}`;
-totalPriceShow3.innerHTML = `Total: $ 000`;
+totalPriceShow3.innerHTML = `Total: $ 0`;
 
 addToCartBtn3.addEventListener('click', () => {
   totalPrice3 += productPrice3;
@@ -83,7 +83,7 @@ const totalPriceShow4 = document.querySelector('#totalPrice4');
 let productPrice4 = 6500;
 let totalPrice4 = 0;
 price4.innerHTML = `$ ${productPrice4}`;
-totalPriceShow4.innerHTML = `Total: $ 000`;
+totalPriceShow4.innerHTML = `Total: $ 0`;
 
 addToCartBtn4.addEventListener('click', () => {
   totalPrice4 += productPrice4;
